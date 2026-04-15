@@ -2,9 +2,9 @@
 
 ## What this is
 
-t is a tiny symbolic math engine built around one strange-looking operation.
+This is a tiny symbolic math engine built around one strange-looking operation from this paper EML https://alphaxiv.org/abs/2603.21852v2
 
-Instead of giving the system a big toolbox with +, -, *, /, log, exp, and so on, it gives it just one building block based on this paper https://alphaxiv.org/abs/2603.21852v2
+Instead of giving the system a big toolbox with +, -, *, /, log, exp, and so on, it gives it just one building block 
 E(a, b) = exp(a) - ln(b)
 
 Then we explore if we can we build useful formulas just by combining that one block over and over
