@@ -1,6 +1,8 @@
-# Tiny Functional Language - Automata-Style Exact Search over a One-Operator Language
+# AEL - A tiny programming language with just one operator 
 
 ## What this is
+
+This is a tiny programming language with just one operator and it can discover and compose exact math formulas
 
 A tiny functional language with
 
