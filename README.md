@@ -2,10 +2,13 @@
 
 ## What this is
 
-This is an automata style exact search over one operator language built based on this EML paper, recasting this idea to automata design
-https://alphaxiv.org/abs/2603.21852v2
+t is a tiny symbolic math engine built around one strange-looking operation.
 
-A tiny symbolic language with one internal operator can support exact search, exact reuse, and exact composition. This demo explores a simple but unusual idea.
+Instead of giving the system a big toolbox with +, -, *, /, log, exp, and so on, it gives it just one building block based on this paper https://alphaxiv.org/abs/2603.21852v2
+E(a, b) = exp(a) - ln(b)
+
+Then we explore if we can we build useful formulas just by combining that one block over and over
+
 
 Instead of building symbolic formulas from a large set of operators like `+`, `-`, `*`, `/`, `log`, and `exp`, we use just one primitive:
 
