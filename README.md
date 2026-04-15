@@ -13,7 +13,7 @@ A tiny functional language with
 Programs = expression trees
 Execution = evaluate the tree
 
-This is a tiny symbolic math engine built around one strange-looking operation from this paper EML https://alphaxiv.org/abs/2603.21852v2
+This is a tiny symbolic math engine built around one strange-looking operation from this famous/infamous paper https://alphaxiv.org/abs/2603.21852v2
 
 Instead of giving the system a big toolbox with +, -, *, /, log, exp, and so on, it gives it just one building block 
 E(a, b) = exp(a) - ln(b)
