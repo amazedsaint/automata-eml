@@ -2,7 +2,10 @@
 
 ## What this is
 
-This demo explores a simple but unusual idea.
+This is an automata style exact search over one operator language built based on this EML paper, recasting this idea to automata design
+https://alphaxiv.org/abs/2603.21852v2
+
+A tiny symbolic language with one internal operator can support exact search, exact reuse, and exact composition. This demo explores a simple but unusual idea.
 
 Instead of building symbolic formulas from a large set of operators like `+`, `-`, `*`, `/`, `log`, and `exp`, we use just one primitive:
 
@@ -46,17 +49,7 @@ Once the system has exact formulas for pieces like `exp(x)`, `exp(y)`, multiplic
 - `exp(x+y)`
 - `x+y`
 
-## Main idea in one sentence
 
-A tiny symbolic language with one internal operator can support exact search, exact reuse, and exact composition.
-
-## Files
-
-- `automata_eml_demo.py`  
-  Single-file demo with search, composition, and tests.
-
-- `automata_eml_post_and_explainer.md`  
-  Short plain-language explanation and post-style summary.
 
 ## How the demo works
 
