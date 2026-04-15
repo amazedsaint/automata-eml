@@ -1,6 +1,15 @@
-# Automata-Style Exact Search over a One-Operator Language
+# Tiny Functional Language - Automata-Style Exact Search over a One-Operator Language
 
 ## What this is
+
+A tiny functional language with
+
+- one primitive operation: E(a, b)
+- a few constants/variables: 1, x, y
+- a recursive syntax (tree structure)
+
+Programs = expression trees
+Execution = evaluate the tree
 
 This is a tiny symbolic math engine built around one strange-looking operation from this paper EML https://alphaxiv.org/abs/2603.21852v2
 
